@@ -19,10 +19,15 @@
             printf("Non-Binary Pride!\n");
             return 0;
             }
+        if (argc > 1 && !strcmp(argv[1], "--pan")){
+            printf("\033[105m\n\n\033[103m\n\n\033[106m\n\n\033[40m\n");
+            printf("Pan Pride!\n");
+            return 0;
+            }
             printf("Pride in your terminal\nThis is just a small little program that prints pride flags in your terminal!\n");
             printf("Written by Josh D. <ItsT3K>, 2022\n");
             printf("========================================\n");
-            printf("--lgbt = LGBT Pride Flag\n--trans = Trans Pride Flag\n--enby = Non-Binary Pride Flag\n");
+            printf("--lgbt = LGBT Pride Flag\n--trans = Trans Pride Flag\n--enby = Non-Binary Pride Flag\n--pan = Pansexual Pride Flag");
             return 0;
-
-        }
+            }
+            
